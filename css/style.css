@@ -34,7 +34,7 @@ body {
     text-decoration: line-through;
 }
 
-.text-bold{
+.text-bold {
     font-weight: bold;
 }
 
@@ -65,6 +65,12 @@ body {
     max-width: 1200px;
 }
 
+.small-container {
+    height: 50px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
 /* flex utility */
 
 .d-flex {
@@ -73,12 +79,28 @@ body {
 
 .spacebetween {
     justify-content: space-between;
+    align-items: center;
 }
 
 /* header setting */
+.link a {
+    color: white;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.logo img {
+    width: 100%;
+    height: 30px;
+}
+
+.list-shopping:hover {
+    cursor: pointer;
+}
 
 header {
-    background-color: var(--accent-red);
+    height: 50px;
+    background-color: var(--orange);
     color: white;
     width: 100%;
     z-index: 1000;
@@ -87,7 +109,7 @@ header {
 }
 
 /* main setting */
-main{
+main {
     margin-top: 30px;
     margin-bottom: 100px;
 }
@@ -121,9 +143,10 @@ main{
     margin-top: 10px;
 }
 
-.hearth:hover{
+.hearth:hover {
     color: var(--accent-red)
 }
+
 /* setting hoover */
 
 .col img.h-image {
@@ -152,20 +175,25 @@ main{
     bottom: 80px;
 }
 
-.bg-green{
-    width: 80px;  
-    background-color: var(--green); 
+.bg-green {
+    width: 80px;
+    background-color: var(--green);
     left: 35px;
 }
-.bg-red{
+
+.bg-red {
     width: 30px;
     background-color: var(--accent-red);
     left: 0;
 }
+
 /* footer settings */
 
 footer ul li {
     list-style: none;
+    margin-top: 5px;
+    padding-right: 10px;
+    font-size: 12px;
 }
 
 footer {
