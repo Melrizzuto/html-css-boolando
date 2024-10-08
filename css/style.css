@@ -20,14 +20,21 @@
 /* Position utility */
 
 
-.p-fixed {
+.p-fixed { 
     position: fixed;
-    top: 0px;
-    left: 0;
 }
 
-.p-absolute {
+
+.p-absolute-top {
     position: absolute;
+    top:0;
+    left: 0;
+
+}
+.p-absolute-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 
 }
 
@@ -51,7 +58,16 @@
 .spacebetween{
     justify-content: space-between;
 }
+/* header setting */
 
+header{
+    background-color: var(--accent-red);
+    color: white;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
 /* main setting */
 .row{
     gap: 5px;
@@ -60,11 +76,34 @@
 
 .col {
     width: calc((100% - 10px) / 3);
+    height: 55%;
     position: relative;
+
 }
 
 .col img {
     width: 100%;
+    display: block;
+}
+
+.text-red{
+    color: var(--accent-red);
+}
+
+.text-barred{
+    text-decoration: line-through;
+}
+
+/* setting hoover */
+
+.col img.h-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.col:hover img.h-image {
     display: block;
 }
 
@@ -74,3 +113,11 @@ footer ul li{
     list-style: none;
 }
 
+footer{
+    background-color: var(--black);
+    color: white;
+    width: 100%;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+}
