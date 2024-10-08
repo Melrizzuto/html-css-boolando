@@ -1,9 +1,17 @@
 /* general */
-.debug{
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.debug {
     border: 1px solid red;
 }
+
 /* reset */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,17 +28,18 @@
 /* Position utility */
 
 
-.p-fixed { 
+.p-fixed {
     position: fixed;
 }
 
 
 .p-absolute-top {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
 
 }
+
 .p-absolute-bottom {
     position: absolute;
     bottom: 0;
@@ -44,23 +53,24 @@
 
 /* General settings */
 
-.container{
+.container {
     margin: 0 auto;
     max-width: 1200px;
 }
 
 /* flex utility */
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.spacebetween{
+.spacebetween {
     justify-content: space-between;
 }
+
 /* header setting */
 
-header{
+header {
     background-color: var(--accent-red);
     color: white;
     width: 100%;
@@ -68,9 +78,15 @@ header{
     top: 0;
     left: 0;
 }
+
 /* main setting */
 
-.row{
+main{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.row {
     gap: 5px;
     flex-wrap: wrap;
 }
@@ -87,11 +103,11 @@ header{
     display: block;
 }
 
-.text-red{
+.text-red {
     color: var(--accent-red);
 }
 
-.text-barred{
+.text-barred {
     text-decoration: line-through;
 }
 
@@ -110,15 +126,17 @@ header{
 
 /* footer settings */
 
-footer ul li{
+footer ul li {
     list-style: none;
 }
 
-footer{
+footer {
+    margin-top: 30px;
     background-color: var(--black);
     color: white;
     width: 100%;
     z-index: 1000;
     bottom: 0;
     left: 0;
+
 }
