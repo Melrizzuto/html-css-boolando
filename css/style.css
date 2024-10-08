@@ -1,5 +1,7 @@
 /* general */
-
+.debug{
+    border: 1px solid red;
+}
 /* reset */
 *{
     margin: 0;
@@ -8,8 +10,11 @@
 }
 
 /* Custom properties */
-:root{
-    
+:root {
+    --orange: #FF6900;
+    --green: #008000;
+    --accent-red: #FF0000;
+    --black: #1A1A1A;
 }
 
 /* Position utility */
@@ -31,7 +36,19 @@
 }
 
 /* General settings */
+
 .container{
     margin: 0 auto;
     max-width: 1200px;
 }
+
+/* flex utility */
+
+.d-flex{
+    display: flex;
+}
+
+.spacebeetwen{
+    justify-content: space-between;
+}
+
