@@ -69,6 +69,7 @@ header{
     left: 0;
 }
 /* main setting */
+
 .row{
     gap: 5px;
     flex-wrap: wrap;
