@@ -6,3 +6,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Position utility */
+
+
+.p-fixed {
+    position: fixed;
+    top: 0px;
+    left: 0;
+}
+
+.p-absolute {
+    position: absolute;
+
+}
+
+.p-relative {
+    position: relative;
+}
