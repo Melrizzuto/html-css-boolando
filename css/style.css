@@ -48,7 +48,29 @@
     display: flex;
 }
 
-.spacebeetwen{
+.spacebetween{
     justify-content: space-between;
+}
+
+/* main setting */
+.row{
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.col {
+    width: calc((100% - 10px) / 3);
+    position: relative;
+}
+
+.col img {
+    width: 100%;
+    display: block;
+}
+
+/* footer settings */
+
+footer ul li{
+    list-style: none;
 }
 
