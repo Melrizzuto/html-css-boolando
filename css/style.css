@@ -174,9 +174,10 @@ main {
 
 /* setting hoover */
 
-.hearth:hover {
-    color: var(--accent-red)
+.hearth:hover{
+    color: var(--accent-red);
 }
+
 .col img.h-image {
     position: absolute;
     top: 0;
