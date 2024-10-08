@@ -120,6 +120,10 @@ main{
     text-align: center;
     margin-top: 10px;
 }
+
+.hearth:hover{
+    color: var(--accent-red)
+}
 /* setting hoover */
 
 .col img.h-image {
@@ -127,6 +131,10 @@ main{
     top: 0;
     left: 0;
     display: none;
+}
+
+.col:hover {
+    cursor: pointer;
 }
 
 .col:hover img.h-image {
