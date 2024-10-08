@@ -204,6 +204,7 @@ footer ul li {
 }
 
 footer {
+    padding: 20px;
     margin-top: 30px;
     background-color: var(--black);
     color: white;
