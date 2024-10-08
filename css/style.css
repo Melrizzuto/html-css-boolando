@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+/* Custom properties */
+:root{
+    
+}
+
 /* Position utility */
 
 
@@ -23,4 +28,10 @@
 
 .p-relative {
     position: relative;
+}
+
+/* General settings */
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
 }
