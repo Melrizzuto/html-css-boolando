@@ -25,6 +25,19 @@ body {
     --black: #1A1A1A;
 }
 
+/* text properties */
+.text-red {
+    color: var(--accent-red);
+}
+
+.text-barred {
+    text-decoration: line-through;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
 /* Position utility */
 
 
@@ -35,6 +48,8 @@ body {
 
 .p-absolute {
     position: absolute;
+    top: 0;
+    right: 0;
 
 }
 
@@ -72,7 +87,6 @@ header {
 }
 
 /* main setting */
-
 main{
     margin-top: 30px;
     margin-bottom: 100px;
@@ -97,13 +111,6 @@ main{
     display: block;
 }
 
-.text-red {
-    color: var(--accent-red);
-}
-
-.text-barred {
-    text-decoration: line-through;
-}
 .hearth {
     width: 40px;
     height: 40px;
@@ -111,9 +118,6 @@ main{
     color: var(--black);
     font-size: 2em;
     text-align: center;
-    position: absolute;
-    top: 0;
-    right: 0;
     margin-top: 10px;
 }
 /* setting hoover */
