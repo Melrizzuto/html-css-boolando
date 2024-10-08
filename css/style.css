@@ -114,6 +114,9 @@ main {
     gap: 5px;
     flex-wrap: wrap;
 }
+.r-second{
+    margin-top: 80px;
+}
 
 .col {
     width: calc((100% - 10px) / 3);
