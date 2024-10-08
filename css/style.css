@@ -6,9 +6,9 @@ body {
     font-style: normal;
 }
 
-.debug {
+/* .debug {
     border: 1px solid red;
-}
+} */
 
 /* reset */
 * {
@@ -50,7 +50,6 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-
 }
 
 
@@ -94,9 +93,6 @@ body {
     height: 30px;
 }
 
-.list-shopping:hover {
-    cursor: pointer;
-}
 
 header {
     height: 50px;
@@ -125,7 +121,7 @@ main {
     position: relative;
     bottom: 0;
     left: 0;
-
+    
 }
 
 .col img {
@@ -143,12 +139,41 @@ main {
     margin-top: 10px;
 }
 
-.hearth:hover {
-    color: var(--accent-red)
+.badge {
+    position: absolute;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    bottom: 80px;
 }
+
+.sostenibility-left{
+    width: 80px;
+    background-color: var(--green);
+    left: 0;
+}
+
+.bg-green {
+    width: 80px;
+    background-color: var(--green);
+    left: 35px;
+}
+
+.bg-red {
+    width: 30px;
+    background-color: var(--accent-red);
+    left: 0;
+}
+
 
 /* setting hoover */
 
+.hearth:hover {
+    color: var(--accent-red)
+}
 .col img.h-image {
     position: absolute;
     top: 0;
@@ -164,27 +189,8 @@ main {
     display: block;
 }
 
-.badge {
-    position: absolute;
-    height: 20px;
-    text-align: center;
-    line-height: 20px;
-    font-weight: bold;
-    font-size: 10px;
-    color: white;
-    bottom: 80px;
-}
-
-.bg-green {
-    width: 80px;
-    background-color: var(--green);
-    left: 35px;
-}
-
-.bg-red {
-    width: 30px;
-    background-color: var(--accent-red);
-    left: 0;
+.list-shopping:hover {
+    cursor: pointer;
 }
 
 /* footer settings */
