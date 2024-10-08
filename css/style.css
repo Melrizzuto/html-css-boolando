@@ -141,6 +141,27 @@ main{
     display: block;
 }
 
+.badge {
+    position: absolute;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    bottom: 80px;
+}
+
+.bg-green{
+    width: 80px;  
+    background-color: var(--green); 
+    left: 35px;
+}
+.bg-red{
+    width: 30px;
+    background-color: var(--accent-red);
+    left: 0;
+}
 /* footer settings */
 
 footer ul li {
